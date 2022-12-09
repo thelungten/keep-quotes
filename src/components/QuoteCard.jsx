@@ -4,7 +4,7 @@ function QuoteCard(props) {
       <img
         onClick={props.deleter}
         className="w-4 absolute top-1 right-1 opacity-50 active:opacity-90 hover:opacity-70 cursor-pointer"
-        src="/src/assets/x.png"
+        src="x.png"
         alt=""
       />
       <p>{props.quote}</p>
