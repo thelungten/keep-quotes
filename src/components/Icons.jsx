@@ -4,15 +4,19 @@ function Icons() {
       {/* logos */}
       <img
         className="w-10"
-        src="src/assets/icons8-react.svg"
+        src="../src/assets/icons8-react.svg"
         alt="React Icon"
       />
       <img
         className="w-7"
-        src="src/assets/icons8-tailwindcss.svg"
+        src="../src/assets/icons8-tailwindcss.svg"
         alt="Tailwing Icon"
       />
-      <img className="w-7" src="src/assets/icons8-firebase.svg" alt="react" />
+      <img
+        className="w-7"
+        src="../src/assets/icons8-firebase.svg"
+        alt="react"
+      />
     </div>
   );
 }
